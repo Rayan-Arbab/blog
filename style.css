@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+    background-color: #ffeff5;
+    color: rgb(68, 68, 68);
+}
+.card{
+    width: 1100px;
+    border: 2px solid #eb4773;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgb(68, 67, 67);
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+}
+.content-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px gray;
+}
+.content-text h1{
+    color: #5e4636;
+    font-size: 50px;
+}
+.content-text p:first-of-type{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+.content-text button{
+    background-color: #ef86ad;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+}
+.content-text button:hover{
+    background-color: cornsilk;
+    transform: translateX(-5px);
+    box-shadow: 0 2px 20px papayawhip;
+    color: #eb4773;
+}
+h2{
+    color: #ce6088;
+    margin-top: 40px;
+    font-size:35px ;
+}
+nav a{
+    margin: 70px ;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+}
+nav{
+    background-color: rgb(231, 229, 229);
+    border-radius: 30px;
+    height: 30px;
+    text-align: center;
+}
+nav a:hover{
+    color: #f58da8;
+    font-weight: bold;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+nav i{
+    color: #f58da8;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 12px;
+
+}
+.content-text{
+    width: 45%;
+}
+.posts{
+    margin: 10px;
+}
+.posts h2{
+    font-size: 35px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+.post-container{
+    margin:25px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-one{
+    width: 250px;
+    padding: 20px; 
+    margin: 15px;
+    text-align: center;
+    background-color: rgb(242, 222, 225);
+    border-radius: 20px;
+    box-shadow:0 8px 25px rgb(73, 72, 72);
+}
+.card-one:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+.card-one h3{
+    color: #645348;
+}
+.one{
+    font-size: 14px;
+}
+.two{
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(187, 83, 117);
+}
+.card-one img{
+    width: 200px;
+    height: 180px;
+}
+footer{
+    background-color: #e8c4cf;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 25px;
+    display: flex;
+    margin-left:10px;
+}
+.footer details{
+    font-size: 14px;
+}
+.icon i{
+    color: #eb4773;
+    cursor: pointer;
+}
